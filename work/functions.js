@@ -76,13 +76,13 @@ function addThenMultiply(f,g,h){
 
 console.log("addThenMultiply", a, b, c, "=", howMany);
 
-function fullname(firstname, lastname){
+function createFullName(firstname, lastname){
 	return firstname + " " + lastname;
 }
 
 var MyFirstName = "Sheri"
 var MyLastName = "Mizuha"
-var FullName = createfullname(MyFirstName, MyLastName);
+var fullName = createFullName(MyFirstName, MyLastName);
 
 console.log( "fullname " + MyFirstName + " " + MyLastName);
 
@@ -92,7 +92,7 @@ function verifyAge (age){
 	return age > 20;
 }
 
-var someonesAge = 25;
+var someonesAge = 19;
 var canDrinkBeer = verifyAge (someonesAge);
 
 console.log ("verify age", someonesAge, "is ok", canDrinkBeer);
@@ -107,10 +107,24 @@ function throwParty(oldEnough){
 	}
 }
 
-var FullName = createFullName(FirstName, LastName);
 
 function eatFood(firstName, lastName, food){
+	var fullName;
+	fullName = createFullName(firstName, lastName);
     console.log(fullName + ' loves to eat ' + food + '!');
 }
 console.log("eatFood");
 eatFood("John","Papa","Pizza");
+
+repeater(3);
+
+function repeater (num){
+	var i;
+	for (i=0; i < num; i++){
+		if (canDrinkBeer){
+			console.log ("Bacon Pancakes, makin' Bacon Pancakes...");
+		} else {
+			console.log ("let it go.... LET IT GOOOOOOoOoOoOoO...");
+		}
+	}
+}
