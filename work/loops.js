@@ -37,6 +37,20 @@ for (i = 0; i < 50; i++){
 console.log (evenNumberArray);
 
 
+//same as above but using a function
+function createEvenNumberArray(count) {
+	var evenNumberArray;
+	var i;
+	var evenNumber;
+
+	evenNumberArray = [];
+	for (i = 0, i < count; i++) {
+		evenNumber = 2 * i;
+		evenNumberArray.push(evenNumber);
+
+	}
+}
+
 var oopsArray;
 oopsArray = ["turn", , "down" , , "for" , , "what"];
 
@@ -75,15 +89,21 @@ function nap(schedule){
 	}
 }
 var copyOfValuesArray;
-var valesArray;
+var valuesArray;
 copyOfValuesArray = [];
-valesArray = [99, 66, 829, 1941, 8, 76];
+valuesArray = [99, 66, 829, 1941, 8, 76];
 
-function valuesArray (originArray, destinationArray){
+copyArray(valuesArray, copyOfValuesArray)
+
+console.log(valuesArray);
+console.log(copyOfValuesArray);
+function copiesArray (originArray, destinationArray){
 	for (i=0; i < originArray.length; i++){
-		//destinationArray.push
+		destinationArray.push(originArray[i]);
 	}
 }
+
+
 
 
 
