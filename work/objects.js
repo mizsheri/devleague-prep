@@ -101,3 +101,24 @@ function printProcessedOrders(orders){
 		console.log (order.total);
 	}
 }
+
+var newObject;
+
+newObject = {
+  a: ,
+  b: ,
+  result:
+};
+
+myModifiedObj = addObjectProps(myObj);
+console.log(myModifiedOf)
+
+function addObjectProps(obj) {
+  var sum;
+
+  sum = obj.a + abj.b;
+  obj.result = sum;
+
+  return obj;
+}
+
