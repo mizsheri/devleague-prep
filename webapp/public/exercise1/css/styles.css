@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Courgette);
+
+body{
+	background-image: url('images/light_grey.png');
+	padding: 40px 0 30px;
+	margin: 0;
+	max-width: 530px;
+	margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Courgette', cursive;
+	line-height: auto;
+	text-align: left;
+}
+
+p{
+	font-family: 'arial', serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #694814;
+	text-align: left;
