@@ -1,0 +1,31 @@
+
+
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+.para1 .heading {
+	background-color: yellow;
+	padding: 15px 10px 15px 10px;
+	color: blue;
+}
+.para1 .heading > h2 {
+	color: Gray;
+	margin-top: 10px;
+}
+h1, 
+
+h2{
+	background-color: ;
+	font-family: 'arial', sans-serif;
+	line-height: auto;
+	text-align: center;
+}
+
+p{
+	font-family: 'arial', serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #694814;
+	text-align: left;
