@@ -7,7 +7,7 @@ function init(){
 
   // For each element with the class 'child'...
 	// Add an event listener on the 'click' event
-  childClassElems = getChildClassElements();
+  	childClassElems = getChildClassElements();
 
 	/* YOUR LOOP CODE HERE */
 	for (i = 0; i < childClassElems.length; i++){
@@ -26,11 +26,11 @@ function registerEventListener(childClassElem) {
 
 		/* YOUR VARIABLE ASSIGNMENT CODE HERE */
 
-		childClassElem.registerEventListener("click",handleClick);
+		childClassElem.addEventListener("click",handleClick);
 
-		secretToyElem = childClassElem.children[1];
+		//secretToyElem = childClassElem.children[1];
 
-		childClassElem.addEventListener("click", handleClick);
+		//childClassElem.addEventListener("click", handleClick);
 
 		function handleClick() {
 			var secretToyElem;
@@ -41,7 +41,7 @@ function registerEventListener(childClassElem) {
 }
 function getChildClassElements() {
 		/* YOUR ELEMENTS RETRIEVAL CODE HERE */
-		return document.getElementById
+		return document.getElementsByClassName("child");
 }
 
 	
