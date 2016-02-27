@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>shopping cart v1</title>
+	<head>
+		<title>shopping cart v1</title>
 	
-  <script src="shopapp.js"></script>
-  <link rel="stylesheet" href="style.css">
+  		<script src="shopapp.js"></script>
+  		<link rel="stylesheet" href="bootstrap.min.css">
 
-</head>
-<body>
-<div id="Heading">
-    <div id="shoppingCart">
-    </div>
-   
-  </div>
-</body>
-</html>
+	</head>
+	<body>
+		<h1> Shopping Cart </h1>
+			<div class="panel panel-primary">
+          		<div class="panel-heading">
+		           <h3 class="panel-title">Shopping Cart</h3>
+		          </div>
+		          <ul id="shoppingCart" class="list-group">
+		          </ul>
+		          <div class="panel-footer">
+		            <button id="subtotalButton" class="btn btn-primary">Update</button>
+		            <span id="subtotal" class="pull-right">???</span>
+		          </div>
+   		     </div>
+    	</body>
+	</html>
